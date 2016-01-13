@@ -1,3 +1,4 @@
 <div class="message">
-  <p><%= message.content %></p>
+  <i><%= l(message.created_at, format: :short) %></i>&nbsp;&nbsp;&nbsp;
+  <%= message.content %><br/>
 </div>
